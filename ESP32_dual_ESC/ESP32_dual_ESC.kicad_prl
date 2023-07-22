@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 38,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -34,7 +34,6 @@
       3,
       4,
       5,
-      8,
       9,
       10,
       11,
@@ -60,11 +59,10 @@
       34,
       35,
       36,
-      39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffcf080_fffffff9",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "ESP32_dual_ESC.kicad_prl",
