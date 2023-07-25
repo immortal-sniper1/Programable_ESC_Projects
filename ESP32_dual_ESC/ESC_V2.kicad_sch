@@ -2197,43 +2197,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 92.71 39.37 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0fa2ce2c-55a2-4e4c-8091-da4530e4eda9)
-    (property "Reference" "R2" (at 92.71 34.925 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "270k" (at 92.71 37.465 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 92.71 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 92.71 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid abeb6cb5-dedb-4ab4-b094-ce8745efc9c0))
-    (pin "2" (uuid a51a471c-1517-4a71-ad53-2ea5baa5580f))
-    (instances
-      (project "ESP32_dual_ESC"
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R2") (unit 1)
-        )
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R40") (unit 1)
-        )
-      )
-      (project "RP2040_ESP32_dual_ESC"
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R19") (unit 1)
-        )
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:D_Small") (at 234.95 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 109671b4-fd00-4590-8344-9d3b13066561)
@@ -2748,41 +2711,41 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 74.93 106.68 180) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 66.04 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3e3acd8a-4a4b-44c1-8a98-ab5247593f22)
-    (property "Reference" "R10" (at 71.755 105.41 0)
+    (uuid 3e74dd43-5345-489a-a628-90434bbef5e0)
+    (property "Reference" "R9" (at 62.865 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0" (at 71.755 107.95 0)
+    (property "Value" "75k" (at 62.865 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 74.93 106.68 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 66.04 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.93 106.68 0)
+    (property "Datasheet" "~" (at 66.04 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C21189" (at 74.93 106.68 0)
+    (property "LCSC" "C23242" (at 66.04 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d382a95d-883c-4bfd-8029-5fdf60af9163))
-    (pin "2" (uuid aba411aa-18b4-49c6-a775-7d36e1cba948))
+    (pin "1" (uuid 42cc6394-29f4-4ea8-a7a9-5fa24c440270))
+    (pin "2" (uuid c316ff57-bfae-4fca-8c5c-05c134fa6648))
     (instances
       (project "ESP32_dual_ESC"
         (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R48") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project "RP2040_ESP32_dual_ESC"
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R28") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3325,46 +3288,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 83.82 106.68 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6fdcadbd-eaa6-4e75-9bff-aab517777cd3)
-    (property "Reference" "R11" (at 80.645 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 80.645 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 83.82 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 83.82 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C21189" (at 83.82 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b0cfe49f-69ec-442f-8e1f-1ce6be75902c))
-    (pin "2" (uuid 145268bc-0b15-4816-96f8-615d96eed2c0))
-    (instances
-      (project "ESP32_dual_ESC"
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R11") (unit 1)
-        )
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R49") (unit 1)
-        )
-      )
-      (project "RP2040_ESP32_dual_ESC"
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R29") (unit 1)
-        )
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R12") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:Q_NMOS_DSG") (at 302.26 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7551a8ee-6f58-4271-8b88-5c9f61d0d573)
@@ -3401,6 +3324,49 @@
         )
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
           (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 68.58 52.07 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7adf27b6-3cba-409f-b441-e029e6e12bd1)
+    (property "Reference" "R15" (at 68.58 47.625 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 68.58 50.165 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 68.58 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 68.58 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C11702" (at 68.58 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1db56a33-6cdf-46f3-8270-c6a64677f9d2))
+    (pin "2" (uuid 5c984527-1995-422d-9447-203833d2696f))
+    (instances
+      (project "ESP32_dual_ESC"
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
+          (reference "R15") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
+          (reference "R26") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/45825136-f387-496f-a706-4df129c3af53"
+          (reference "R66") (unit 1)
+        )
+      )
+      (project "RP2040_ESP32_dual_ESC"
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
+          (reference "R41") (unit 1)
+        )
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3477,6 +3443,49 @@
         )
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
           (reference "#PWR0107") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 80.01 59.69 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8064932d-ff49-490d-90d3-2cc14baa1cf0)
+    (property "Reference" "R6" (at 83.185 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "75k" (at 83.185 60.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 80.01 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.01 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25798" (at 80.01 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 32da4a31-ece8-4ea9-83d0-d21daf0010fe))
+    (pin "2" (uuid 5f63681a-1931-416b-bdcb-375c82ef6111))
+    (instances
+      (project "ESP32_dual_ESC"
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
+          (reference "R6") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
+          (reference "R40") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/45825136-f387-496f-a706-4df129c3af53"
+          (reference "R67") (unit 1)
+        )
+      )
+      (project "RP2040_ESP32_dual_ESC"
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
+          (reference "R24") (unit 1)
+        )
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3713,46 +3722,6 @@
       (project "ESP32_dual_ESC"
         (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
           (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 68.58 52.07 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 930cba07-2f19-4baf-90fe-ae22f057398c)
-    (property "Reference" "R15" (at 68.58 47.625 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10K" (at 68.58 50.165 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 68.58 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 68.58 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25804" (at 68.58 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 183a3206-c17d-4703-912e-1754878a463d))
-    (pin "2" (uuid bead081f-82de-4153-baf8-c8b4ec00a8c9))
-    (instances
-      (project "ESP32_dual_ESC"
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R15") (unit 1)
-        )
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R26") (unit 1)
-        )
-      )
-      (project "RP2040_ESP32_dual_ESC"
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R41") (unit 1)
-        )
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R16") (unit 1)
         )
       )
     )
@@ -4356,46 +4325,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 66.04 106.68 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c99c4a61-3fd5-4bf9-9749-45145cf0ed6d)
-    (property "Reference" "R9" (at 62.865 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 62.865 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 66.04 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 66.04 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C21189" (at 66.04 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7bb9953f-a3f9-4a41-ac67-606d6ede7fe3))
-    (pin "2" (uuid fb225561-ad75-4de2-8e46-33576edc1e4e))
-    (instances
-      (project "ESP32_dual_ESC"
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R9") (unit 1)
-        )
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R47") (unit 1)
-        )
-      )
-      (project "RP2040_ESP32_dual_ESC"
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R27") (unit 1)
-        )
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 264.16 152.4 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9c19856-0fd2-4964-83d7-821d31394f0f)
@@ -4751,38 +4680,41 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 80.01 59.69 180) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 83.82 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid e60ab1d9-0cdc-484c-85b6-c1944862d734)
-    (property "Reference" "R6" (at 76.835 58.42 0)
+    (uuid e197bebc-4c7a-419a-aa15-b675ad107982)
+    (property "Reference" "R9" (at 80.645 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270k" (at 76.835 60.96 0)
+    (property "Value" "75k" (at 80.645 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 80.01 59.69 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 83.82 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 80.01 59.69 0)
+    (property "Datasheet" "~" (at 83.82 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 246321d5-2f05-4f60-8507-9985bc13aaeb))
-    (pin "2" (uuid ccb8c970-d70a-4189-a77d-dd9c66d49b1c))
+    (property "LCSC" "C23242" (at 83.82 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b06231dc-4f30-4843-b454-e6ddd524bd3b))
+    (pin "2" (uuid c1588043-f97d-4998-ac38-bc4f6559dfe3))
     (instances
       (project "ESP32_dual_ESC"
         (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R44") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
       (project "RP2040_ESP32_dual_ESC"
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R24") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R7") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4877,6 +4809,89 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Small") (at 74.93 106.68 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f0e311f3-1e44-45ca-b640-c4d20efa3aff)
+    (property "Reference" "R9" (at 71.755 105.41 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "75k" (at 71.755 107.95 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 74.93 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.93 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C23242" (at 74.93 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e4bc95ed-5c32-43da-9c09-7e24caaf9670))
+    (pin "2" (uuid b39d43c0-e5fb-4da0-9983-3237b63a8349))
+    (instances
+      (project "ESP32_dual_ESC"
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
+          (reference "R9") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
+          (reference "R48") (unit 1)
+        )
+      )
+      (project "RP2040_ESP32_dual_ESC"
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
+          (reference "R27") (unit 1)
+        )
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
+          (reference "R10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 92.71 39.37 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f2026d3e-8d83-4d28-a4ff-5445eb7ff7b0)
+    (property "Reference" "R6" (at 92.71 34.925 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "75k" (at 92.71 37.465 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 92.71 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 92.71 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25798" (at 92.71 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e1f91b3d-3bd8-4d77-aea7-23116dbcb0d8))
+    (pin "2" (uuid da650a47-f126-4007-a599-c3ba7633a03a))
+    (instances
+      (project "ESP32_dual_ESC"
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
+          (reference "R6") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
+          (reference "R44") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/45825136-f387-496f-a706-4df129c3af53"
+          (reference "R67") (unit 1)
+        )
+      )
+      (project "RP2040_ESP32_dual_ESC"
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
+          (reference "R24") (unit 1)
+        )
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 34.29 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4c2bd2b-3d18-44d2-b825-efcd417f3e12)
@@ -4908,46 +4923,6 @@
         )
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
           (reference "#PWR0108") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 68.58 39.37 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f89947bb-3a16-4e05-a6f3-b7417981c125)
-    (property "Reference" "R15" (at 68.58 34.925 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10K" (at 68.58 37.465 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 68.58 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 68.58 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25804" (at 68.58 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7ff1d446-6e38-451a-a8a5-ef86aa95a95d))
-    (pin "2" (uuid 354ce0f2-2c24-4131-b4a9-6c7afb4dd92b))
-    (instances
-      (project "ESP32_dual_ESC"
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
-          (reference "R15") (unit 1)
-        )
-        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
-          (reference "R25") (unit 1)
-        )
-      )
-      (project "RP2040_ESP32_dual_ESC"
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
-          (reference "R41") (unit 1)
-        )
-        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
-          (reference "R16") (unit 1)
         )
       )
     )
@@ -5140,6 +5115,49 @@
         )
         (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
           (reference "#PWR0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 68.58 39.37 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ffc50823-f5a0-41b9-bcb6-504c1c7e4c71)
+    (property "Reference" "R15" (at 68.58 34.925 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 68.58 37.465 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 68.58 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 68.58 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C11702" (at 68.58 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4aa20075-d9bb-458c-b10b-f96c2ff5e1cd))
+    (pin "2" (uuid 4154b28e-51b7-48ec-a1a0-c09fef5c6778))
+    (instances
+      (project "ESP32_dual_ESC"
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/7b4e9774-d5c0-4dcc-8333-bf9c8f8fd4d2"
+          (reference "R15") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/a5f74768-9639-4eb3-91ba-c1f0d0522ee0"
+          (reference "R25") (unit 1)
+        )
+        (path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/45825136-f387-496f-a706-4df129c3af53"
+          (reference "R66") (unit 1)
+        )
+      )
+      (project "RP2040_ESP32_dual_ESC"
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/3eea6442-4d46-486f-9ea6-ee6c5e1aa227"
+          (reference "R41") (unit 1)
+        )
+        (path "/de60a032-2d18-46ec-886c-321c690a27a5/e88dd17a-a0db-4fc4-bc1e-62952c12f20f"
+          (reference "R16") (unit 1)
         )
       )
     )
