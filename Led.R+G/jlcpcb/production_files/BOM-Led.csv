@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+330,R3,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,
+RED,D4,LED_D5.0mm,
+RED,D2,LED_D5.0mm,
+330,R1,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,
+Conn_01x03,J1,TerminalBlock_Altech_AK300-3_P5.00mm,
+Blue,D5,LED_D5.0mm,
+RED,D6,LED_D5.0mm,
+Blue,D3,LED_D5.0mm,
+330,R2,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,
+Blue,D1,LED_D5.0mm,

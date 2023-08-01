@@ -1,0 +1,11 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,Blue,LED_D5.0mm,95.25,-95.25,-90.0,top
+D2,RED,LED_D5.0mm,87.757,-95.25,90.0,top
+D3,Blue,LED_D5.0mm,79.121,-95.25,-90.0,top
+D4,RED,LED_D5.0mm,71.12,-95.25,90.0,top
+D5,Blue,LED_D5.0mm,61.849,-95.25,-90.0,top
+D6,RED,LED_D5.0mm,53.975,-95.25,90.0,top
+J1,Conn_01x03,TerminalBlock_Altech_AK300-3_P5.00mm,75.946,-59.817,180.0,top
+R1,330,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,95.123,-78.994,-90.0,top
+R2,330,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,76.2,-78.994,-90.0,top
+R3,330,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,56.642,-78.994,-90.0,top
