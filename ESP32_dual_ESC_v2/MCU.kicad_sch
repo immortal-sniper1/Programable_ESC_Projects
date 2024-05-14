@@ -6449,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 57.15) (xy 204.47 57.15)
+			(xy 191.77 57.15) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7339,6 +7339,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 204.47) (xy 288.29 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5db341-b5da-4558-9f61-0006b70461e1")
+	)
+	(wire
+		(pts
 			(xy 269.24 240.03) (xy 285.75 240.03)
 		)
 		(stroke
@@ -7609,7 +7619,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 54.61) (xy 215.9 54.61)
+			(xy 218.44 54.61) (xy 209.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7716,6 +7726,16 @@
 			(type default)
 		)
 		(uuid "89cbf52e-6b14-4565-af06-629c26656519")
+	)
+	(wire
+		(pts
+			(xy 276.86 207.01) (xy 288.29 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9910cd-15c5-4c1d-8c33-f2b2b49b944f")
 	)
 	(wire
 		(pts
@@ -8069,7 +8089,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 57.15) (xy 218.44 57.15)
+			(xy 203.2 57.15) (xy 218.44 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8989,7 +9009,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 54.61) (xy 199.39 54.61)
+			(xy 204.47 54.61) (xy 191.77 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9506,7 +9526,7 @@
 		(uuid "22879e55-e5ed-418c-a1fa-8ff5fed56bc3")
 	)
 	(label "RX"
-		(at 199.39 54.61 0)
+		(at 191.77 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9539,7 +9559,7 @@
 		(uuid "4242275a-92e8-41e0-ba37-c5e2c4f45673")
 	)
 	(label "GPIO_35"
-		(at 327.66 226.06 0)
+		(at 327.66 223.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9672,6 +9692,17 @@
 		)
 		(uuid "5c053cf6-3e32-45c7-a29b-f76120f02979")
 	)
+	(label "TX_in"
+		(at 210.82 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "628e4376-9ae6-4ba4-9dc1-e892cf5c1fbc")
+	)
 	(label "GPIO_16"
 		(at 226.06 176.53 0)
 		(fields_autoplaced yes)
@@ -9761,7 +9792,7 @@
 		(uuid "7cca2aba-59f8-4b79-b39f-cd64010f545a")
 	)
 	(label "GPIO_37"
-		(at 327.66 228.6 0)
+		(at 327.66 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9850,6 +9881,28 @@
 		)
 		(uuid "9b55bf5d-fd7d-451c-9d55-efd6c38b5bf2")
 	)
+	(label "GPIO_48"
+		(at 276.86 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f6eb1c1-7f10-44a4-9862-e01268ce323a")
+	)
+	(label "RX_in"
+		(at 210.82 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a875335b-36ac-4d20-9574-ab25d5e3a9e5")
+	)
 	(label "2V5_RAW"
 		(at 52.07 157.48 0)
 		(fields_autoplaced yes)
@@ -9918,7 +9971,7 @@
 		(uuid "bea0f2bd-b77c-4695-a4f7-7cebe03eeb96")
 	)
 	(label "GPIO_39"
-		(at 327.66 223.52 0)
+		(at 327.66 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10007,7 +10060,7 @@
 		(uuid "cc220827-52af-4a4d-8f86-3c3b74ccff82")
 	)
 	(label "TX"
-		(at 199.39 57.15 0)
+		(at 191.77 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10061,6 +10114,17 @@
 			(justify left bottom)
 		)
 		(uuid "deee12df-2f7d-49bd-9ca5-a425dd7d55e3")
+	)
+	(label "GPIO_47"
+		(at 276.86 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8991612-0c27-4714-a267-9359c54706e8")
 	)
 	(label "GPIO_16"
 		(at 320.04 64.77 180)
@@ -10740,7 +10804,7 @@
 	)
 	(hierarchical_label "Phase_A_L_2"
 		(shape input)
-		(at 383.54 226.06 0)
+		(at 285.75 229.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10824,7 +10888,7 @@
 	)
 	(hierarchical_label "Phase_B_L_2"
 		(shape input)
-		(at 383.54 231.14 0)
+		(at 383.54 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10872,7 +10936,7 @@
 	)
 	(hierarchical_label "Phase_C_H_2"
 		(shape input)
-		(at 285.75 229.87 0)
+		(at 383.54 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10896,7 +10960,7 @@
 	)
 	(hierarchical_label "Phase_C_L_2"
 		(shape input)
-		(at 383.54 233.68 0)
+		(at 383.54 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13672,7 +13736,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 57.15 270)
+		(at 200.66 57.15 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13681,7 +13745,7 @@
 		(dnp no)
 		(uuid "45d26a39-8a7f-4c83-bfec-cad05b927e58")
 		(property "Reference" "R97"
-			(at 204.47 55.245 90)
+			(at 198.12 55.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,7 +13753,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 209.55 55.245 90)
+			(at 203.2 55.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13697,7 +13761,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 207.01 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,7 +13770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +13779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13788,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 207.01 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16195,7 +16259,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 54.61 270)
+		(at 207.01 54.61 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16204,7 +16268,7 @@
 		(dnp no)
 		(uuid "83bfc1ce-4e98-476e-98e6-8ac4e1e00731")
 		(property "Reference" "R96"
-			(at 210.82 52.705 90)
+			(at 204.47 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,7 +16276,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 215.9 52.705 90)
+			(at 209.55 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16220,7 +16284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 213.36 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16229,7 +16293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16238,7 +16302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16247,7 +16311,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 213.36 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17178,6 +17242,72 @@
 			(project "ESP32_dual_ESC"
 				(path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/8113d184-5b72-4086-992e-4b0bb4c337ba"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 288.29 204.47 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e72a340-0fa2-413c-b8d9-dfd1f21b9b56")
+		(property "Reference" "TP8"
+			(at 294.894 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 296.926 206.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 288.29 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 288.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d5db82-b0af-43b5-8921-5f309ce3cfff")
+		)
+		(instances
+			(project "ESP32_dual_ESC"
+				(path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/8113d184-5b72-4086-992e-4b0bb4c337ba"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -22085,6 +22215,72 @@
 			(project "ESP32_dual_ESC"
 				(path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/8113d184-5b72-4086-992e-4b0bb4c337ba"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 288.29 207.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef5bb14f-b6ea-4e50-bcf4-cfb4401ace4c")
+		(property "Reference" "TP9"
+			(at 294.894 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 296.926 208.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 288.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 288.29 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ccc7d61-6345-4788-8fdf-32e96ea9f534")
+		)
+		(instances
+			(project "ESP32_dual_ESC"
+				(path "/d69d9177-9e27-4190-aaf2-7a8813ea119b/8113d184-5b72-4086-992e-4b0bb4c337ba"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
